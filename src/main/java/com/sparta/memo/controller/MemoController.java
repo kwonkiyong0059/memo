@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@RestController
+@RestController //계속해서 spring container에 의해서 bean으로 등록되어서 관리되고 있었다.
 @RequestMapping("/api")
 public class MemoController {
 
